@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: inter, sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: #121212;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #707070;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: #EF233C;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.head-part {
+    background-image: url('image/large-cow.jpg');
+    background-size: cover;
+    padding: 10%;
+    box-shadow: inset 500px -500px 1000px rgba(0, 0, 0, 0.5), inset -500px 500px 1000px rgba(0, 0, 0, 0.5);
+}
+
+.head-part h2 {
+    width: 50%;
+    color: white;
+}
+ 
+.head-part p {
+    width: 50%;
+    margin: 2rem 0;
+    color: white;
+    
+}
+
+/* ======================================================== */
+
+.second-part {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10rem auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.second-part .words h2 {
+    font-size: 4rem;
+    width: 80%;
+}
+
+.second-part .words p {
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+.second-part .words button {
+    margin-top: 3rem;
+}
+
+.second-part .image img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+/* ========================================================== */
+
+.third-part {
+    width: 80%;
+    margin: 2rem auto 10rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-part .image {
+    width: 130%;
+}
+
+.third-part .words {
+    margin-left: 41.5%;
+}
+
+.third-part .image img {
+    width: 110%;
+    border-radius: .5rem;
+}
+
+.third-part .words h2 {
+    font-size: 4rem;
+}
+
+.third-part .words p {
+    margin-top: 1.5rem;
+    width: 110%;
+}
+
+.third-part .words button {
+    margin-top: 2.5rem;
+}
+
+/* ========================================================= */
+
+.fourth-part {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.div1 p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 5rem;
+}
+
+.div1 h2 {
+    text-align: center;
+    font-size: 4rem;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.div1 p {
+    width: 70%;
+}
+
+.div2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.part {
+    display: flex;
+    gap: 1.5rem;
+    background-color: rgba(255, 228, 196, 0.5);
+    margin: auto auto 2rem 2rem;
+    padding: 3rem 4rem;
+    width: 96%;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
+
+
+.part img {
+    width: 100%;
+}
+
+.part h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ========================================================= */
+
+.rombos {
+    display: flex;
+    gap: 3rem;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.rombos img {
+    width: 33.333%;
+    border-radius: 1rem;
+}
+
+
+/* ======================================== */
+
+.extend h2 {
+    font-size: 3rem;
+    width: 50%;
+    margin: 10rem auto 2rem;
+    text-align: center;
+}
+
+.extend p {
+    width: 50%;
+    margin: 0 auto 4rem;
+    text-align: center;
+}
+
+.extend-section {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 10rem;
+    gap: 2rem;
+}
+
+.extend-section .extend-div {
+    width: 33.3333%;
+    border: 2px solid rgba(128, 128, 128, 0.2);
+    padding: 0 0 3rem 0;
+    border-radius: 1rem;
+}
+
+.extend-div img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.extend-div h3 {
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+}
+
+.extend-div p {
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+}
+
+.extend-div a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #EF233C;
+    padding: 0 2rem;
+}
+
+/* ===================================================== */
+
+footer {
+    background: #0B0D17;
+    padding: 5rem 0;
+}
+
+footer h2 {
+    color: #EF233C;
+    font-family: Lobster, sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    color: #D9DBE1;
+    text-align: center;
+}
